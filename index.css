@@ -1,0 +1,55 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #FEFEFE;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+
+.charts {  
+    padding: 10px;
+    margin-top: -15px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tekst {
+    width: 30%;
+}
+
+.bar {
+    width: 60%;
+    padding-left: 10%;
+}
+
+.shared {
+    width: 30%;
+    margin-top: -10px;
+}
+
+.profile {
+    width: 60%;
+    padding-left: 10%;
+    margin-top: -10px;
+}
+
+

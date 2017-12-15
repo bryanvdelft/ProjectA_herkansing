@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="charts">
+        <div class="tekst">   
+            <h1>Online gedrag van tieners op social media</h1>
+            <p>Tieners gebruiken tegenwoordig bijna allemaal wel een Social Media platform. Maar hoe oud zijn deze tieners? 
+            Hoevaak gebruiken ze een bepaald platform? En hoe zit het met hun online privacy gegevens, is hun profiel beschermd of niet?
+            Op dit dashboard staan 3 grafieken die deze vragen beantwoorden. In totaal hebben er 799 tieners meegedaan aan dit onderzoek.
+            De leeftijden van de tieners gaan van 12 t/m 17 jaar en deze zijn ongeveer gelijk verdeeld.</p>
+            <a href="https://docs.google.com/spreadsheets/d/18sk6zNVzZRrxYws7IvG3uqk8sJQHrZb_eo388cijHkU/edit?usp=sharing">Volledige Dataset in GoogleSheets</a>
+            <br>
+            <a href="https://bigml.com/dashboard/dataset/59faf2a6af447f4e92001386">Dataset website (inlog vereist)</a>
+
+        </div>
+
+        <div class="bar">
+            <h2>Social Media gebruik in een week</h2>
+                <p>In deze staaf grafiek is te zien hoevaak de tieners hun Social media gebruiken. Het grootste deel gebruikt het elke dag.
+                In totaal zijn er 391 mannen en 408 vrouwen. Je ziet dat vrouwen meer op Social Media zitten dan de mannen.</p>
+                <svg id="barChart" width="700" height="240"></svg>
+        </div>
+
+        <div class="shared">
+            <h2>Wachtwoord gedeeld</h2>
+                <p>Deze pie-chart laat zien wie van de jongeren zijn wachtwoord wel eens heeft gedeeld met een vriend en/of vriendin.
+                Het valt op dat best een groot deel van de tieners zijn wachtwoord niet alleen voor zichzelf houd.  </p>
+                <svg id="pieChart" width="300" height="240"></svg>
+        </div>
+
+        <div class="profile">
+            <h2>Profiel privacy</h2>
+                <p>In deze staaf grafiek is te zien hoe de tieners die social media hebben, hun profiel hebben beveiligd. Het is verdeeld
+                in mannen en vrouwen omdat er een duidelijk verschil tussen de twee te zien is. De meiden gaan een stuk beter met hun online 
+                profielen om dan de jongens</p>
+                <svg id="stackChart" width="700" height="240"></svg>
+        </div>
+    </div>
+</body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="password.js"></script>
+<script src="usage.js"></script>
+<script src="profile.js"></script>
+
+
